@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  body {
+    background-color: rgb(37, 37, 37);
+    font-family: Arial;
+  }
+
+.sidenav {
+  height: 100%;
+  width: 160px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #4e4e4e;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #ffffff;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.main {
+  margin-left: 160px;
+  font-size: 28px;
+  padding: 0px 10px;
+  color: rgb(212, 212, 212);
+}
+
+.items {
+  margin-top: 50px;
+  font-size: 20px;
+  background-color: rgb(57, 57, 87);
+  display: inline-block;
+  border-radius: 10px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+</style>
+</head>
+<body>
+
+<div class="sidenav">
+  <a href="https://zuper64.github.io/wii/">Start here</a>
+  <a href="https://zuper64.github.io/wii/str2hax">Str2hax</a>
+  <a href="https://zuper64.github.io/wii/wilbrand">Wilbrand</a>
+</div>
+
+<div class="main">
+  <div>
+    <h1 style="text-align: center;">Str2hax</h1>
+
+    <p>Str2hax is an exploit for homebrewing the Wii which utilises it's EULA.</p>
+  </div>
+  
+  <div class="items">
+    <p>&nbsp; For this guide, you will need: &nbsp;</p>
+    <p>&nbsp; &#8226 A Wii with an internet connection &nbsp;</p>
+    <p>&nbsp; &#8226 An SD card formatted to FAT32 &nbsp;</p>
+  </div>
+     
+  <div class="guide">
+    <p>1. Go to the Wii Settings.</p>
+    <img src="str2hax-images/settings.png">
+
+    <p>2. Go to Internet.</p>
+    <img src="str2hax-images/internet.png">
+
+    <p>3. Go to Connection Settings.</p>
+    <img src="str2hax-images/connectionsettings.png">
+
+    <p>4. Go to Connection 1 and configure an internet connection.</p>
+    <img src="str2hax-images/connectiononfig.png">
+
+    <p>5. Perform a connection test and a Wii system update if prompted.</p>
+    <img src="str2hax-images/connectiontest.png">
+
+    <p>6. Click connection 1 and select change settings.</p>
+    <img src="str2hax-images/changesettings.png">
+
+    <p>7. Scroll across with the arrows until you reach Auto Obtain DNS. Select No, then advanced settings.</p>
+    <img src="str2hax-images/dnssettings.png">
+
+    <p>8. Set the Primary DNS to 18.188.135.9 and the secondary DNS to 1.1.1.1 Save this and run a connection test.</p>
+    <img src="str2hax-images/customdns.png">
+
+    <p>9. Return back to the main internet settings and select user agreements or Agreement/ Contact. You should now see this screen</p>
+    <img src="str2hax-images/eula.png">
+
+    <p>10. The exploit will now download. Do not press I agree or I disagree.</p>
+  </div>
+
+  <div>
+    <a href="https://zuper64.github.io/wii/hackmii">
+      You should now be in the hackmii installer. Please proceed to our homebrew channnel + bootmii installation guide.
+    </p>
+  </div>
+</div>
+</body>
+</html> 
