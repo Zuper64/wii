@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  body {
+    background-color: rgb(37, 37, 37);
+    font-family: Arial;
+  }
+
+.sidenav {
+  height: 100%;
+  width: 160px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #4e4e4e;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #ffffff;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.main {
+  margin-left: 160px;
+  font-size: 28px;
+  padding: 0px 10px;
+  color: rgb(212, 212, 212);
+}
+
+.items {
+  margin-top: 50px;
+  font-size: 20px;
+  background-color: rgb(57, 57, 87);
+  display: inline-block;
+  border-radius: 10px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+</style>
+</head>
+<body>
+
+<div class="sidenav">
+  <a href="https://zuper64.github.io/wii/">Start here</a>
+  <a href="https://zuper64.github.io/wii/str2hax">Str2hax</a>
+  <a href="https://zuper64.github.io/wii/wilbrand">Wilbrand</a>
+</div>
+
+<div class="main">
+    <div class="intro">
+      <h1 style="text-align: center;">
+        Wilbrand
+      </h1>
+      <p>
+        Wilbrand is an exploit for the Wii which utilises the Wii message board.
+      </p>
+      <p>
+        Wilbrand supports versions as low as 3.0, so it is superior to letterbomb.
+      </p>
+    </div>
+
+    <div class="items">
+      <p>&nbsp; For this guide, you will need: &nbsp;</p>
+      <p>&nbsp; &#8226 A Wii &nbsp;</p>
+      <p>&nbsp; &#8226 An SD card formatted to FAT32 &nbsp;</p>
+    </div>
+
+    <div class="guide">
+      <p>1. Visit Wii settings. Then proceed to internet, then console information. Write down your mac address.</p>
+      <img src="wilbrand-images/macaddress.png">
+
+      <p>2. Visit <a href="https://wilbrand.donut.eu.org">wilbrand.donut.eu.org</a></p>
+      <img src="wilbrand-images/wilbrand.png">
+
+      <p>3. Enter your system version and region. Then input your mac address, which you wrote down earlier. Select "bundle the hackmii installer for mii". Now, choose either "cut the green wire" or "cut the red wire".</p>
+
+      <p>4. Use <a href=https://7-zip.org>7Zip</a> to extract the downloaded file to your SD card.</p>
+
+      <p>5. Insert your SD card into your Wii.</p>
+
+      <p>6. Go to the Wii message board and click the wilbrand message. You should now be in the hackmii installer. (If it does not appear, make sure your date and time is correct.)</p>
+    </div>
+    <a href="https://zuper64.github.io/wii/hackmii">
+      You should now be in the hackmii installer. Please proceed to our homebrew channnel + bootmii installation guide.
+    </p>
+</div>
+   
+</body>
+</html> 
