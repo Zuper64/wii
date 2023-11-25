@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>Bootmii</title>
+
+<style>
+  body {
+    background-color: rgb(37, 37, 37);
+    font-family: Arial;
+  }
+
+.sidenav {
+  height: 100%;
+  width: 160px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #4e4e4e;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #ffffff;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.main {
+  margin-left: 160px;
+  font-size: 28px;
+  padding: 0px 10px;
+  color: rgb(212, 212, 212);
+}
+
+.items {
+  margin-top: 50px;
+  font-size: 20px;
+  background-color: rgb(57, 57, 87);
+  display: inline-block;
+  border-radius: 10px;
+}
+
+img {
+  width: 750px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+</style>
+</head>
+<body>
+
+<div class="sidenav">
+  <a href="https://zuper64.github.io/wii/">Start here</a>
+  <a href="https://zuper64.github.io/wii/str2hax">Str2hax</a>
+  <a href="https://zuper64.github.io/wii/wilbrand">Wilbrand</a>
+  <a href="https://zuper64.github.io/wii/hackmii">Hackmii</a>
+  <a href="https://zuper64.github.io/wii/bootmii">Bootmii</a>
+</div>
+
+<div class="main">
+  <div class="intro">
+    <h1>Bootmii</h1>
+    <p>Bootmii is a useful tool for the Wii. It allows you to create and restore NAND backups, which makes it important brick protection. This guide will show how to create a NAND backup.</p> 
+  </div>
+
+    <div class="items">
+      <p>&nbsp; For this guide, you will need: &nbsp;</p>
+      <p>&nbsp; &#8226 A Wii with bootmii installed &nbsp;</p>
+      <p>&nbsp; &#8226 An SD card formatted to FAT32, which contains the bootmii files &nbsp;</p>
+    </div>
+
+  <div class="guide">
+    <p>1. In the homebrew channel, press the home button on your wiimote. Then select launch bootmii.</p>
+    <img src="bootmii-images/launch-bootmii.png">
+
+    <p>2. Using the power button to navigate and the reset button to select, go to the settings icon and select it.</p>
+    <img src="bootmii-images/bootmii-settings.png">
+
+    <p>3. Press reset to select NAND backup.</p>
+    <img src="bootmii-images/nand-backup.png">
+
+    <p>4. The NAND backup will now start. Don't worry about bad blocks, they are completely normal. Once it has finished, press the reset button to exit.</p>
+    <img src="bootmii-images/nand-backup2.png">
+
+    <p>5. Press the power button 3 times, then the reset button to select back.</p>
+    <img src="bootmii-images/back.png">
+
+    <p>6. Press the reset button to return to the Wii Menu. You may now turn off your console.</p>
+    <img src="bootmii-images/wii-menu.png">
+
+    <p>7. You may copy your "nand.bin" and "keys.bin" files on your SD card to a safe place, as they are important in case your Wii ever bricks.</p>
+  </div>
+
+  <div>
+    <a href="https://zuper64.github.io/wii/priiloader">Continue to installing priiloader.</a>
+  </div>
+</div>
+   
+</body>
+</html> 
