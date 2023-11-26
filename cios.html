@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>cIOS</title>
+
+<style>
+  body {
+    background-color: rgb(37, 37, 37);
+    font-family: Arial;
+  }
+
+.sidenav {
+  height: 100%;
+  width: 160px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #4e4e4e;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #ffffff;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.main {
+  margin-left: 160px;
+  font-size: 28px;
+  padding: 0px 10px;
+  color: rgb(212, 212, 212);
+}
+
+.items {
+  margin-top: 15px;
+  font-size: 20px;
+  background-color: rgb(57, 57, 87);
+  display: inline-block;
+  border-radius: 10px;
+}
+
+img {
+  width: 750px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+</style>
+</head>
+<body>
+
+<div class="sidenav">
+  <a href="https://zuper64.github.io/wii/">Start here</a>
+  <a href="https://zuper64.github.io/wii/str2hax">Str2hax</a>
+  <a href="https://zuper64.github.io/wii/wilbrand">Wilbrand</a>
+  <a href="https://zuper64.github.io/wii/hackmii">Hackmii</a>
+  <a href="https://zuper64.github.io/wii/bootmii">Bootmii</a>
+  <a href="https://zuper64.github.io/wii/priiloader">Priiloader</a>
+  <a href="https://zuper64.github.io/wii/cios">cIOS</a>
+  <a href="https://zuper64.github.io/wii/navigation">Navigation</a>
+</div>
+
+<div class="main">
+  <div class="intro">
+    <h1 style="text-align: center;">cIOS</h1>
+    <p>Installing custom IOSs allows the Wii to be able to run more homebrew, such as game backup loaders.</p>
+  </div>
+
+  <div class="items">
+    <p>&nbsp; For this guide, you will need: &nbsp;</p>
+    <p>&nbsp; &#8226 A Wii with the homebrew channel &nbsp;</p>
+    <p>&nbsp; &#8226 An SD card formatted to FAT32 &nbsp;</p>
+    <p>&nbsp; &#8226 <a href="https://zuper64.github.io/wii/d2x-cios-installer.zip" target="_blank">d2x cIOS installer</a> &nbsp;</p>
+    <p>&nbsp; &#8226 <a href="https://zuper64.github.io/wii/NUSD-Mod-NUS-Fix.zip" target="_blank">NUS Downloader</a> (Offline Only) &nbsp;</p>
+  </div>
+  
+  <div class="offline">
+    <h1 style="margin-bottom: 15px;">Offline installation</h1>
+    <p style="margin-top: 0px;">You may skip this section if your Wii has internet access.</p>
+
+    <div class="offline-guide">
+      <p>1. Download NUS downloader from <a href="https://zuper64.github.io/wii/NUSD-Mod-NUS-Fix.zip" target="_blank">here</a> and extract it with 7zip.</p>
+      <p>2. Locate "NUS Downloader.exe" and double click it to run it.</p>
+      <p>3. Select "Database" then "IOS".</p>
+      <p>4. Select IOS38, then v4123.</p>
+      <p>5. Ensure that "Pack WAD" is checked, then select "Start NUS Download".</p>
+      <p>6. Repeat steps 4 and 5 for IOS56 v5661, IOS57 v5918 and IOS58 v6175.</p>
+      <p>7. There should now be a "titles" folder in the same directory as NUS Downloader. Locate the wad files you downloaded and place them in the root of your SD card.</p>
+    </div>
+  </div>
+
+  <div class="installation">
+    <h1 style="margin-bottom: 10px;">Installing cIOS</h1>
+    <p style="margin-top: 0px;">Continuation of offline guide/ Start of online guide.</p>
+
+    <p>1. Download d2x cIOS Installer from <a href="https://zuper64.github.io/wii/d2x-cios-installer.zip" target="_blank">here</a> and extract it to your SD card.</p>
+    <p>2. Insert your SD card into your Wii and go to the homebrew channel.</p>
+    <p>3. Launch d2x cIOS Installer.</p>
+    <p>4. Press A to continue and set it to "Select cIOS: d2x-v11-beta1, Select cIOS base: 38, Select cIOS slot: 248, Select cIOS version: 65535"</p>
+    <p>5. Press A twice to install. Then, press A again to return.</p>
+    <p>6. Set the installation to "Select cIOS: d2x-v11-beta1, Select cIOS base: 56, Select cIOS slot: 249, Select cIOS version: 65535"</p>
+    <p>7. Press A twice to install. Then, press A again to return.</p>
+    <p>8. Set the installation to "Select cIOS: d2x-v11-beta1, Select cIOS base: 57, Select cIOS slot: 250, Select cIOS version: 65535"</p>
+    <p>9. Press A twice to install. Then, press A again to return.</p>
+    <p>10. Set the installation to "Select cIOS: d2x-v11-beta1, Select cIOS base: 58, Select cIOS slot: 251, Select cIOS version: 65535"</p>
+    <p>11. Press A twice to install. Then, press B to exit to the homebrew channel.</p>
+  </div>
+
+  <div>
+    <a href="https://zuper64.github.io/wii/navigation">Continue to site navigation to find other guides for homebrew apps.</a>
+  </div>
+</div>
+</body>
+</html> 
