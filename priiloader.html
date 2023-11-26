@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>Bootmii</title>
+
+<style>
+  body {
+    background-color: rgb(37, 37, 37);
+    font-family: Arial;
+  }
+
+.sidenav {
+  height: 100%;
+  width: 160px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #4e4e4e;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #ffffff;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.main {
+  margin-left: 160px;
+  font-size: 28px;
+  padding: 0px 10px;
+  color: rgb(212, 212, 212);
+}
+
+.items {
+  margin-top: 50px;
+  font-size: 20px;
+  background-color: rgb(57, 57, 87);
+  display: inline-block;
+  border-radius: 10px;
+}
+
+img {
+  width: 750px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+</style>
+</head>
+<body>
+
+<div class="sidenav">
+  <a href="https://zuper64.github.io/wii/">Start here</a>
+  <a href="https://zuper64.github.io/wii/str2hax">Str2hax</a>
+  <a href="https://zuper64.github.io/wii/wilbrand">Wilbrand</a>
+  <a href="https://zuper64.github.io/wii/hackmii">Hackmii</a>
+  <a href="https://zuper64.github.io/wii/bootmii">Bootmii</a>
+  <a href="https://zuper64.github.io/wii/priiloader">Priiloader</a>
+</div>
+
+<div class="main">
+  <div class="intro">
+    <h1 style="text-align: center;">Priiloader</h1>
+    <p>Priiloader is a homebrew app for the Wii which provides protection against some bricks.</p>
+
+  <div class="items">
+    <p>&nbsp; For this guide, you will need: &nbsp;</p>
+    <p>&nbsp; &#8226 A Wii with the homebrew channel &nbsp;</p>
+    <p>&nbsp; &#8226 An SD card formatted to FAT32 &nbsp;</p>
+    <p>&nbsp; &#8226 <a href="https://github.com/DacoTaco/priiloader/releases/">Priiloader_v0_10.zip</a></p>
+    <p>&nbsp; &#8226 <a href="https://github.com/DacoTaco/priiloader/releases/">LoadPriiloader.zip</a></p>
+  </div>
+
+  <div class="guide">
+    <p>1. Download "Priiloader_v0_10.zip" and "LoadPriiloader.zip" from <a href="https://github.com/DacoTaco/priiloader/releases/">here</a></p>
+    <img src="priiloader-images/priiloader-download.png">
+
+    <p>2. Use <a href="https://7-zip.org">7zip</a> or any other extraction software to extract "Priiloader_v0_10.zip" and "LoadPriiloader.zip" to the root of your SD card. The files should look like this.</p>
+    <img src="priiloader-images/files.png">
+
+    <p>3. Insert the SD card into the Wii and power on the console.</p>
+
+    <p>4. Open the homebrew channel. You should now see "Priiloader Installer" and "Load Priiloader".</p>
+    <img src="priiloader-images/priiloader-hbc.png">
+
+    <p>5. Load "Priiloader Installer". You should now see this screen.</p>
+    <img src="priiloader-images/priiloader-launch.png">
+    <img src="priiloader-images/priiloader-install.png">
+
+    <p>6. Press the + or A buttons on your Wii remote to continue to the Priiloader installation.</p>
+    <img src="priiloader-images/priiloader-install2.png">
+
+    <p>7. Press A to return back to the homebrew channel. Priiloader is now sucessfully installed.</p>
+
+    <p>8. Press the home button on your Wii remote and select "Exit to System Menu".</p>
+    <img src="priiloader-images/exit.png">
+
+    <p>9. You should now be in Priiloader. Scroll down to "System Menu Hacks" and press A.</p>
+    <img src="priiloader-images/sys-hacks.png">
+
+    <p style="margin-bottom: 5px;">10. Enable these options:</p>
+    <p style="margin: 0px;">&#8226 Block Online Updates</p>
+    <p style="margin: 0px;">&#8226 Block Disc Updates</p>
+    <p style="margin: 0px;">&#8226 Remove Deflicker (Only use this if you are not using a CRT)</p>
+
+    <p>11. Scroll down to "Save Settings" and press A.</p>
+
+    <p>12. Press B to return to the main menu. Then, select "System Menu" to return to the Wii menu.</p>
+  </div>
+
+  <div>
+    <h1>Congratulations! Your Wii is now fully modded.</h1>
+    <p style="margin-bottom: 0px;">If you would like to get the full potential out of your Wii, please continue to our optional cIOS guide.</p>
+    <a href="https://zuper64.github.io/wii/cios">Installing cIOS</a>
+  </div>
+  </div>
+</div>
+</body>
+</html> 
